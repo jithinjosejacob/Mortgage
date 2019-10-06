@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.797887">
+<testcase classname="Clear Bororwing Estimate form" name="Clear Bororwing Estimate form" time="19.797887">
+<system-out><![CDATA[Given User navigated to borrowing estimate page.............................passed
+Then Page is available for the user.........................................passed
+When I check "Single" for "Application type"................................passed
+And I select "0" for "Number of dependants".................................passed
+And I check "Home to live in" for "Property you would like to buy"..........passed
+And I fill in "80000" for "Your income (before tax)"........................passed
+And I fill in "10000" for "Your other income"...............................passed
+And I fill in "500" for "Living expenses"...................................passed
+And I fill in "0" for "Current home loan repayments"........................passed
+And I fill in "100" for "Other loan repayments".............................passed
+And I fill in "0" for "Other commitments"...................................passed
+And I fill in "10000" for "Total credit card limits"........................passed
+When I press "Start over"...................................................passed
+Then I should see "Single" checked in "Application type"....................passed
+And I should see "0" selected in dropdown "Number of dependants"............passed
+And I should see "Home to live in" checked in "Property you would like to buy".passed
+And I should see "0" in textbox "Your income (before tax)"..................passed
+And I should see "0" in textbox "Your other income".........................passed
+And I should see "0" in textbox "Living expenses"...........................passed
+And I should see "0" in textbox "Current home loan repayments"..............passed
+And I should see "0" in textbox "Other loan repayments".....................passed
+And I should see "0" in textbox "Other commitments".........................passed
+And I should see "0" in textbox "Total credit card limits"..................passed
+]]></system-out>
+</testcase>
+</testsuite>
